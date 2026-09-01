@@ -6,6 +6,28 @@
   <component name="ChangeListManager">
     <list default="true" id="8f4f6544-635e-48e1-9ea4-3cd453bd10a1" name="Changes" comment="">
       <changelist_data name="Akshat Chandak" email="" automatic="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/run_1/apple_10k_excerpt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/run_1/ifixit_teardowns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/run_1/product_specs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/run_2/new_generation_release.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/raw/run_2/supplier_clean_energy_report.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bindings/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tom-select/tom-select.complete.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tom-select/tom-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/vis-9.1.2/vis-network.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/vis-9.1.2/vis-network.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_direct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/acquisition/ingest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extraction/triples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/neo4j_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/queries.cypher" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontology/engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontology/schema-store.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontology/schema_store.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resolution/entity_resolver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visualization/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -382,7 +404,7 @@
       <option name="presentableId" value="Default" />
       <updated>1788080305432</updated>
       <workItem from="1788080355926" duration="4011000" />
-      <workItem from="1788278248066" duration="6295000" />
+      <workItem from="1788278248066" duration="6645000" />
     </task>
     <servers />
   </component>
@@ -412,6 +434,13 @@
             <State>
               <option name="FILTERS">
                 <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
                   <entry key="user">
                     <value>
                       <list>

@@ -1,0 +1,155 @@
+{
+  "classes": {
+    "Concept": {
+      "evidence_count": 19,
+      "confidence": 0.851,
+      "source_contexts": [
+        "Product Genealogy Specs",
+        "Hardware Teardown BOM",
+        "Product Evolution Teardown 2024",
+        "Supplier Clean Energy Report 2024",
+        "Technical Specifications"
+      ]
+    },
+    "Component": {
+      "evidence_count": 14,
+      "confidence": 0.808,
+      "source_contexts": [
+        "Product Genealogy Specs",
+        "Hardware Teardown BOM",
+        "Product Evolution Teardown 2024",
+        "Supplier Clean Energy Report 2024",
+        "Technical Specifications"
+      ]
+    },
+    "Organization": {
+      "evidence_count": 7,
+      "confidence": 0.677,
+      "source_contexts": [
+        "Hardware Teardown BOM",
+        "Supplier Clean Energy Report 2024",
+        "Technical Specifications"
+      ]
+    },
+    "Facility": {
+      "evidence_count": 2,
+      "confidence": 0.375,
+      "source_contexts": [
+        "Supplier Clean Energy Report 2024"
+      ]
+    }
+  },
+  "relations": {
+    "CONTAIN": {
+      "domains": [
+        "Concept"
+      ],
+      "ranges": [
+        "Component"
+      ],
+      "evidence_count": 2,
+      "confidence": 0.333
+    },
+    "SUPPLY": {
+      "domains": [
+        "Organization"
+      ],
+      "ranges": [
+        "Component"
+      ],
+      "evidence_count": 3,
+      "confidence": 0.429
+    },
+    "FEATURE": {
+      "domains": [
+        "Concept"
+      ],
+      "ranges": [
+        "Component"
+      ],
+      "evidence_count": 4,
+      "confidence": 0.5
+    },
+    "MANUFACTURE": {
+      "domains": [
+        "Organization"
+      ],
+      "ranges": [
+        "Concept"
+      ],
+      "evidence_count": 2,
+      "confidence": 0.333
+    },
+    "UTILIZE": {
+      "domains": [
+        "Concept"
+      ],
+      "ranges": [
+        "Component"
+      ],
+      "evidence_count": 2,
+      "confidence": 0.333
+    },
+    "REPLACE": {
+      "domains": [
+        "Concept"
+      ],
+      "ranges": [
+        "Concept"
+      ],
+      "evidence_count": 2,
+      "confidence": 0.333
+    },
+    "ASSOCIATED_WITH": {
+      "domains": [
+        "Concept"
+      ],
+      "ranges": [
+        "Component",
+        "Facility"
+      ],
+      "evidence_count": 3,
+      "confidence": 0.429
+    },
+    "OPERATE": {
+      "domains": [
+        "Organization"
+      ],
+      "ranges": [
+        "Facility"
+      ],
+      "evidence_count": 1,
+      "confidence": 0.2
+    },
+    "ACHIEVE": {
+      "domains": [
+        "Organization"
+      ],
+      "ranges": [
+        "Concept"
+      ],
+      "evidence_count": 1,
+      "confidence": 0.2
+    },
+    "REUSE": {
+      "domains": [
+        "Concept"
+      ],
+      "ranges": [
+        "Component"
+      ],
+      "evidence_count": 1,
+      "confidence": 0.2
+    }
+  },
+  "detected_conflicts": [
+    {
+      "type": "RANGE_EXPANSION_OR_CONFLICT",
+      "relation": "ASSOCIATED_WITH",
+      "existing_ranges": [
+        "Component"
+      ],
+      "new_range": "Facility"
+    }
+  ]
+}
